@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6770f5bc.css",
+    "main.js": "/Portfolio/static/js/main.9e961e9a.js",
+    "static/media/PayApi-sc.png": "/Portfolio/static/media/PayApi-sc.ed4d5d91b342bf59a9d9.png",
+    "static/media/InvoicesApp-sc-dark.png": "/Portfolio/static/media/InvoicesApp-sc-dark.e10a6f237767d52a9ae9.png",
+    "static/media/InvoicesApp-sc-light.png": "/Portfolio/static/media/InvoicesApp-sc-light.5c32f1379a8a694c5f14.png",
+    "static/media/Audiophile-thumbnail.png": "/Portfolio/static/media/Audiophile-thumbnail.406f28264b16e1376d4d.png",
+    "static/media/Daan Warming.pdf": "/Portfolio/static/media/Daan Warming.9bd427db72fe54fbfad5.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.6770f5bc.css.map": "/Portfolio/static/css/main.6770f5bc.css.map",
+    "main.9e961e9a.js.map": "/Portfolio/static/js/main.9e961e9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6770f5bc.css",
+    "static/js/main.9e961e9a.js"
+  ]
+}
