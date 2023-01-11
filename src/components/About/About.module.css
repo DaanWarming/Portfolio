@@ -1,0 +1,155 @@
+.about-me__title {
+    margin-top: 105px;
+    margin-bottom: 50px;
+    line-height: 0;
+    font-size: 3.4em;
+}
+
+.about-me__underline {
+    width: 75px;
+    height: 2px;
+    background-color: #00B8FE;
+}
+
+.about-me__image--info {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-me__image {
+    max-width: 180px;
+    height: 180px;
+    object-fit: fill;
+    border-radius: 100%;
+}
+
+.about-me__info {
+    background-color: #3e3e3e;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 130px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-me__info__item__icon {
+    margin-left: 13px;
+}
+
+.about-me__info__light {
+    background-color: #ffffff;
+}
+
+.about-me__info__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me__info__item__text {
+    margin: 0 0 0 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.about-me__info__item__text__function {
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.about-me__info__item__text__email {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+.about-me__text {
+    font-size: 1.05em;
+    color: #e4e4e4;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 40px;
+    white-space: pre-line;
+}
+
+.about-me__text__light {
+    color: #333333;
+}
+
+.about-me__btn--container {
+    display: flex;
+    margin-top: 45px;
+}
+
+.about-me__btn {
+    background-color: #3E3E3E;
+    padding: 8px 10px;
+    width: 180px;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 1.05em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #00B8FE;
+    fill: #00B8FE;
+    background: linear-gradient(to right, #00B8FE 50%, #3e3e3e 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .2s ease-out;
+}
+
+.about-me__btn__light {
+    border: 2px solid #00B8FE;
+    background: linear-gradient(to right, #00B8FE 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .2s ease-out;
+}
+
+.about-me__btn:hover {
+    background-position: left bottom;
+    color: white;
+    fill: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .about-me__title {
+        margin-top: 70px;
+        margin-bottom: 35px;
+        font-size: 2.5em;
+    }
+
+    .about-me__image--info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .about-me__info {
+        margin-left: 0;
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    .about-me__btn--container {
+        flex-direction: column;
+    }
+
+    .about-me__btn {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 8px 0;
+    }
+}
+

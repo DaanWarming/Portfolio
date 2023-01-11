@@ -1,0 +1,13 @@
+.projects__title {
+    font-size: 3.4em;
+    line-height: 0px;
+    margin-top: 110px;
+}
+
+.projects__underline {
+    width: 75px;
+    height: 2px;
+    background-color: #00B8FE;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}

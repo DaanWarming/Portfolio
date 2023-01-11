@@ -1,0 +1,36 @@
+
+
+.nav-bar--container {
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 50px;
+    padding: 0 7%;
+}
+
+.nav-bar__link:hover {
+    color: #d1d0d0;
+}
+
+.nav-bar__link--linkedin {
+    margin-left: auto;
+    margin-right: 26px;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        margin: 0 10px ;
+        padding: 0 2%;
+    }
+}

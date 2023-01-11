@@ -1,0 +1,25 @@
+{
+    "navigation.projects": "Projects",
+    "navigation.reading": "Reading",
+
+    "about.about": "Hello! \n My name is Daan and I am a Dutch front-end developer with a focus on React. I am located in The Hague and am always seeking to expand my knowledge of business and technology. \n \n As a developer, I particularly enjoy the process of taking a design from Figma and turning it into a fully functional website. It's always a great feeling to see my work being used by others. \n In my free time I like to play golf with my family, play video games with friends, and occasionally support Feyenoord at the stadium.",
+    "about.resume": "View Resume",
+    "about.linkedin": "LinkedIn Profile",
+    
+    "skills.front-text": "I build responsive web applications using React, HTML, CSS, and JavaScript",
+    "skills.other-title": "Other Skills",
+    "skills.other-text": "I also make use of a number of other skills and tools on a daily basis as part of my development process.",
+
+    "projects.title": "Projects",
+    "projects.project-btn": "View Live Example",
+    
+    "projects.audiophile-title": "Audiophile E-Commerce Website",
+    "projects.audiophile-text": "Audiophile is a multi-page e-commerce website with a responsive design and interactive elements using React. Users can view products, add and remove items from their cart, and complete a checkout form. The website also uses localStorage to track the contents of the cart after refreshing.",
+    
+    "projects.invoices-title": "Invoices App",
+    "projects.invoices-text": "I developed an invoicing application that allows users to create, read, update, and delete invoices using React. The application features a responsive design and interactive elements. It also includes form validation for creating and editing invoices, as well as the ability to save draft invoices and mark pending invoices as paid. Users can filter their invoices by status and toggle between light and dark mode.",
+    
+    "projects.payapi-title": "PayApi",
+    "projects.payapi-text": "For this project, I developed a multi-page website using HTML and CSS that is designed to be responsive and interactive. The website includes a home, about, pricing, and contact page. I made sure that the site matched the provided designs for different devices including mobile, tablet, and desktop."
+
+}

@@ -1,0 +1,133 @@
+.reading-list--container {
+    margin: 100px 100px ;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.reading-list {
+    align-items: flex-start;
+    width: 100%;
+    max-width: 720px;
+    padding: 4% 7%;
+    background-color: #404040;
+    border-radius: 16px;
+    color: white;
+    fill: white;
+}
+
+.reading-list__book-icon {
+    font-size: 4.8em;
+    margin-left: 2px;
+}
+
+.reading-list__title {
+    font-size: 2.5em;
+    line-height: 34px;
+}
+
+.reading-list__sub-text {
+    font-size: 1em;
+    margin-top: 28px;
+    line-height: 24px;
+    font-style: oblique;
+}
+
+.reading-list__sub-text--date {
+    margin-top: -8px;
+    font-style: oblique;
+}
+
+.reading-list__books-icon {
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 45px;
+    border-bottom: 1px solid #6a6a6a;
+    margin: 35px 0 20px;
+}
+
+.reading-list__article--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.reading-list__icon-article {
+    display: flex;
+}
+
+.reading-list__star-icon {
+    font-size: 1.37em;
+}
+
+.reading-list__article {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #6a6a6a;
+    padding-bottom: 1.5px;
+    letter-spacing: 0.004em;
+}
+
+.reading-list__year {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #6a6a6a;
+    padding-bottom: 1.5px;
+    letter-spacing: 0.004em;
+    margin-left: 20px;
+}
+
+.reading-list__article:hover {
+    color: #d1d0d0;
+}
+
+
+.reading-list__paper-icon {
+    min-width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill:#d1d0d0 ;
+}
+
+.reading-list__article--link {
+    font-size: 0.8em;
+    border-bottom: 1px solid #6a6a6a;
+    padding-bottom: -px;
+}
+
+.reading-list__article--link:hover {
+    color: #d1d0d0;
+}
+
+@media screen and (max-width: 1000px) {
+    .reading-list--container {
+        margin: 50px 50px ;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reading-list--container {
+        margin: 25px 25px ;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reading-list--container {
+        margin: 25px 25px ;
+    }
+
+    .reading-list {
+        padding: 4% 4%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .reading-list--container {
+        margin: 25px 10px ;
+    }
+
+    .reading-list {
+        padding: 4% 2%;
+    }
+}

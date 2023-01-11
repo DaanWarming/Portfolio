@@ -1,0 +1,146 @@
+.skills__container {
+    width: 56%;
+}
+
+.skills__title {
+    font-size: 3.4em;
+    margin-bottom: 50px;
+    line-height: 0px;
+    margin-top: 110px;
+}
+
+.skills__underline {
+    width: 75px;
+    height: 2px;
+    background-color: #00B8FE;
+    margin-bottom: 70px;
+}
+
+.skills__section {
+    margin: 80px 0 0 0;
+}
+
+.skills__sub-title {
+    font-size: 1.8em;
+    line-height: 30px;
+    margin: -15px 0 -7px;
+}
+
+.skills__sub-text {
+    font-size: 1em;
+    color: #D4D4D4;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+}
+
+.skills__sub-text__light {
+    color: #333333;
+}
+
+
+
+.skills__skill--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+
+
+.skills__skill {
+    width: 48%;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-left: 8px solid #00B8FE;
+    background-color: #484848;
+    display: flex;
+    align-items: center;
+}
+
+.skills__skill__light {
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.skills__icon--container {
+    height: 100%;
+    width: 60px;
+    background-color: #3E3E3E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__icon--container__light {
+    background-color: #E0E0E0;
+}
+
+
+.skills__skill__text--container {
+    margin: -5px 30px 0;
+    width: 70%;
+    border-bottom: 1px solid #747474;
+}
+
+.skills__skill__text--container__light {
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.skills__skill__text {
+    font-size: 1.3em;
+    line-height: 0px;
+    margin-bottom: 19px;
+}
+
+@media screen and (max-width: 1200px) {
+    .skills__container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .skills__container {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .skills__container {
+        width: 86%;
+    }
+
+    .skills__title {
+        font-size: 2.5em;
+        margin-bottom: 35px;
+    }
+
+    .skills__underline {
+        margin-bottom: 10px;
+    }
+
+    .skills__skill--container {
+        flex-direction: column;
+    }
+
+    .skills__section {
+        margin: 50px 0 0 0;
+    }
+
+    .skills__skill {
+        width: 100%;
+    }
+
+    .skills__sub-title {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skills__container {
+        width: 90%;
+    }
+}

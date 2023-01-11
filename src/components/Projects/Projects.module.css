@@ -1,0 +1,194 @@
+
+.projects__preview__container__light {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.projects__preview__container {
+    margin-bottom: 70px;
+}
+
+.project__image--container {
+    background-color: #6A6A6A;
+    padding: 7%;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    transition: background-color 0.2s;
+}
+
+.project__preview:hover .project__image--container {
+    background-color: #838383;
+}
+
+.project__image--container__light {
+    background-color: #e2e2e2;
+}
+
+.project__preview:hover .project__image--container__light {
+    background-color: #d1d1d1;
+}
+
+.project__image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project__description {
+    background-color: #404040;
+    margin-top: 0px;
+    padding: 5px 7% 1px 7%;
+    transition: background-color 0.2s;
+}
+
+.project__preview:hover .project__description {
+    background-color: #505050;
+}
+
+.project__description__light {
+    background-color: #ffffff;
+}
+
+.project__preview:hover .project__description__light {
+    background-color: #f3f3f3;
+}
+
+.project__description__title {
+    margin: 30px 0 0;
+    text-decoration: underline;
+}
+
+.project__description__text {
+    color: #e4e4e4;
+}
+
+.project__description__light .project__description__text {
+    color: #686868;
+}
+
+.project__description__tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 26px 0 19px;
+}
+
+.project__description__tag {
+    background-color: #303030;
+    padding: 8px 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 22px;
+    color:#00B8FE;
+    fill: #00B8FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.project__description__tag__light {
+    background-color: #eceef8;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.project__preview:hover .project__description__tag__light {
+    background-color: #fafafa;
+}
+
+.project__description__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.project__view-bar {
+    height: 55px;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #00B8FE;
+    fill: #00B8FE;
+    background: linear-gradient(to right, #00B8FE 50%, #161616 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .25s ease-out;
+}
+
+.project__view-bar__light {
+    background: linear-gradient(to right, #00B8FE 50%, #ffffff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .25s ease-out;
+    border-top: 1px solid #eaeaea;
+}
+
+.project__preview:hover .project__view-bar {
+    background-position: left bottom;
+    color: white;
+    fill: white;
+}
+
+
+.project__view-bar__text {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-right: 14px;
+}
+
+.project__github-link {
+    background-color: #404040;
+    padding: 12px 12px;
+    border-radius: 22px;
+    color:#00B8FE;
+    fill: #00B8FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    width: 150px;
+    margin: 18px 0 0 auto;
+}
+
+.project__github-link:hover {
+    transition: all .1s ease-out;
+    background-color: #303030;
+}
+
+@media screen and (max-width: 700px) {
+    .projects__title {
+        font-size: 2.5em;
+    }
+
+    .projects__underline {
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    .project__description__tag {
+        background-color: #303030;
+        padding: 8px 12px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 22px;
+        color:#00B8FE;
+        fill: #00B8FE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project__image--container {
+        padding: 5%;
+    }
+
+    .project__description {
+        background-color: #404040;
+        margin-top: 0px;
+        padding: 5px 5% 1px 5%;
+        transition: background-color 0.2s;
+    }
+}

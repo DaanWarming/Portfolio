@@ -1,0 +1,24 @@
+{
+    "navigation.projects": "Projecten",
+    "navigation.reading": "Leeslijst",
+
+    "about.about": "Hoi! \n Mijn naam is Daan en ik ben een front-end React developer wonend in Den Haag. Ik ben iemand die altijd op zoek naar nieuwe kennis over het bedrijfs leven en technologie. \n \n Als developer vind ik het proces van het omzetten van een design uit Figma in een volledig functionele website bijzonder leuk. Het is altijd een geweldig gevoel om te zien hoe mijn werk gebruikt wordt door anderen. \n In mijn vrije tijd speel ik graag video games met vrienden, golf ik met mijn familie en steun ik af en toe Feyenoord in het stadion.",
+    "about.resume": "Bekijk CV",
+    "about.linkedin": "LinkedIn Profiel",
+    
+    "skills.front-text": "Ik bouw responsive web applications met React, HTML, CSS en Javascript",
+    "skills.other-title": "Andere Skills",
+    "skills.other-text": "Ik gebruik ook verschillende andere skills en tools op dagelijkse basis als onderdeel van mijn development process",
+
+    "projects.title": "Projecten",
+    "projects.project-btn": "Bekijk De Live Demo",
+
+    "projects.audiophile-title": "Audiophile Webshop",
+    "projects.audiophile-text": "Audiophile is een webshop met een responsive ontwerp en interactieve elementen gebouwd met React. Gebruikers kunnen producten bekijken, artikelen aan hun winkelwagen toevoegen, verwijderen en de hoeveelheden aanpassen. De website gebruikt ook localStorage om de inhoud van de winkelwagen te volgen na het refreshen van de browser.",
+    
+    "projects.invoices-title": "Invoices App",
+    "projects.invoices-text": "Dit project is een facturerings app gebouwd met React die gebruikers in staat stelt om facturen te maken, bekijken, bewerken en verwijderen. Er is ook form validation voor het maken en bewerken van facturen, evenals de mogelijkheid om conceptfacturen op te slaan en openstaande facturen als betaald te markeren. Gebruikers kunnen hun facturen filteren op status en tussen light en dark mode wisselen.",
+    
+    "projects.payapi-title": "PayApi",
+    "projects.payapi-text": "Voor dit project heb ik een website ontwikkeld met HTML en CSS die is ontworpen om responsive en interactief te zijn. De website bevat een home, about, prijs en contact pagina. Ik heb ervoor gezorgd dat de site aansloot bij de figma ontwerpen voor verschillende apparaten, waaronder mobiel, tablet en desktop."
+}
