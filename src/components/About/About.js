@@ -3,15 +3,13 @@ import profilePic from "../../assets/BlueProfilePicture.jpg"
 import { FormattedMessage } from "react-intl"
 import CV from "../../assets/Daan Warming.pdf"
 
-// className={`${AboutStyles["about-me__btn"]} ${AboutStyles[`about-me__btn__${darkMode}`]}`}
-
 export default function AboutMe({darkMode}) {
     return (
         <section className={`side-margins ${AboutStyles["about-me--container"]} ${AboutStyles[`about-me--container__${darkMode}`]}`} id="about">
             <h1 className={`${AboutStyles["about-me__title"]} ${AboutStyles[`about-me__title__${darkMode}`]}`}>About Me</h1>
             <div className={AboutStyles["about-me__underline"]}></div>
             <div className={AboutStyles["about-me__image--info"]}>
-                <img className={AboutStyles["about-me__image"]} src={profilePic}></img>
+                <img className={AboutStyles["about-me__image"]} src={profilePic} alt="profile"></img>
                 <div className={`${AboutStyles["about-me__info"]} ${AboutStyles[`about-me__info__${darkMode}`]}`}>
                     <div className={AboutStyles["about-me__info__item"]}>
                         <svg  width="25" height="21" viewBox="0 0 512 512" className={`${AboutStyles["about-me__info__item__icon"]} ${AboutStyles[`about-me__info__item__icon__${darkMode}`]}`}>

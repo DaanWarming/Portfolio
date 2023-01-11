@@ -3,10 +3,8 @@ import Footer from "../../components/footer/Footer"
 import AboutMe from "../../components/About/About"
 import Skills from "../../components/Skills/Skills"
 import AudiophileWebShop from "../../components/Projects/AudiophileWebShop"
-import { Route, HashRouter, Routes } from "react-router-dom"
 import InvoicesApp from "../../components/Projects/InvoicesApp"
 import ProjectsTitle from "../../components/Projects/ProjectsTitle"
-import PayApi from "../../components/Projects/PayApi"
 
 
 

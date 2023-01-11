@@ -1,14 +1,12 @@
 import ProjectStyles from "./Projects.module.css"
 import PayApiThumbnail from "../../assets/PayApi-sc.png"
-
 import { FormattedMessage } from "react-intl"
-
 
 export default function PayApi({darkMode}) {
     return (
         <>
             <div className={`${ProjectStyles["projects__preview__container"]} ${ProjectStyles[`projects__preview__container__${darkMode}`]}`}>
-                <a className={ProjectStyles["project__preview"]} href="https://daanwarming.github.io/PayApi/index.html" target="_blank">
+                <a className={ProjectStyles["project__preview"]} href="https://daanwarming.github.io/PayApi/index.html" target="_blank" rel="noreferrer" >
                     <div className={`${ProjectStyles["project__image--container"]} ${ProjectStyles[`project__image--container__${darkMode}`]}`}>
                         <img className={ProjectStyles["project__image"]} src={PayApiThumbnail}></img>
                     </div>

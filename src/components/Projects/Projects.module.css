@@ -4,7 +4,11 @@
 }
 
 .projects__preview__container {
-    margin-bottom: 70px;
+    margin-bottom:120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .project__image--container {
@@ -13,6 +17,9 @@
     border-radius: 5px 5px 0 0;
     margin: 0;
     transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project__preview:hover .project__image--container {
@@ -137,7 +144,7 @@
 
 .project__github-link {
     background-color: #404040;
-    padding: 12px 12px;
+    padding: 6px 12px;
     border-radius: 22px;
     color:#00B8FE;
     fill: #00B8FE;
@@ -145,14 +152,25 @@
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    width: 150px;
-    margin: 18px 0 0 auto;
+    width: 180px;
+    margin: 0 0 -60px auto;
+    position: absolute;
 }
 
 .project__github-link:hover {
     transition: all .1s ease-out;
     background-color: #303030;
 }
+
+.projects__preview__container__light .project__github-link {
+    background-color: #ffffff;
+}
+
+.projects__preview__container__light .project__github-link:hover {
+    background-color: #eceef8;
+}
+
+
 
 @media screen and (max-width: 700px) {
     .projects__title {

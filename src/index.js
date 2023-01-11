@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './pages/home/home';
 import indexStyles from "./index.css"
-import reportWebVitals from './reportWebVitals';
 import ReadingList from './pages/ReadingList/ReadingList';
 import { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import routesFromArticles from "./components/Articles/articles.js"
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import {IntlProvider} from 'react-intl';
 
 import Wrapper from './components/Wrapper';
 import ReadingList22 from './pages/ReadingList/ReadingList22';
