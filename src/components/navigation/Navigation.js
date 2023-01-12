@@ -24,9 +24,6 @@ export default function Navigation({darkMode, isDarkMode, toggleDarkMode}) {
     return (
         <nav className={`${navStyles["nav__container"]} ${navStyles[`container__${darkMode}`]}`}>
             <ul className={navStyles["nav__links--container"]}>
-                <li className={`${navStyles["nav__links"]} ${navStyles["nav__links--home"]} ${navStyles[`nav__links__${darkMode}`]}`} onClick={goToAbout}>
-                    <div className={navStyles["nav__links--item"]}><p className={`${navStyles["link"]} ${navStyles[`link__${darkMode}`]}`}>Home</p></div>
-                </li>
                 <li className={`${navStyles["nav__links"]} ${navStyles["nav__links--about"]} ${navStyles[`nav__links__${darkMode}`]}`} onClick={goToAbout}>
                     <div className={navStyles["nav__links--item"]} >
                         <svg viewBox="0 0 512 512" width="21" className={`${navStyles["icon"]} ${navStyles[`icon__${darkMode}`]}`} title="user-alt">

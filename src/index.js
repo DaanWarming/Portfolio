@@ -31,7 +31,7 @@ export default function App() {
       <Wrapper>
         <BrowserRouter>
             <Routes>
-              <Route path="/Portfolio" element={<Home darkMode={darkMode} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+              <Route path="/" element={<Home darkMode={darkMode} isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
               <Route path="ReadingList" element={<ReadingList />} />
               <Route path="ReadingList22" element={<ReadingList22 />} />
               <Route path="ReadingList23" element={<ReadingList23 />} />

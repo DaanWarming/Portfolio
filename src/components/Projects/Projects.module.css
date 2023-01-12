@@ -204,7 +204,6 @@
     }
 
     .project__description {
-        background-color: #404040;
         margin-top: 0px;
         padding: 5px 5% 1px 5%;
         transition: background-color 0.2s;
