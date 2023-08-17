@@ -5,6 +5,7 @@ import Skills from "../../components/Skills/Skills"
 import AudiophileWebShop from "../../components/Projects/AudiophileWebShop"
 import InvoicesApp from "../../components/Projects/InvoicesApp"
 import ProjectsTitle from "../../components/Projects/ProjectsTitle"
+import TaskBuddy from "../../components/Projects/TaskBuddy"
 
 
 
@@ -17,6 +18,7 @@ export default function Home({darkMode, isDarkMode, toggleDarkMode}) {
                 <Skills darkMode={darkMode}/>
                 <section className="side-margins">
                     <ProjectsTitle darkMode={darkMode}/>
+                    <TaskBuddy darkMode={darkMode}/>
                     <AudiophileWebShop darkMode={darkMode}/>
                     <InvoicesApp darkMode={darkMode}/>
                 </section>

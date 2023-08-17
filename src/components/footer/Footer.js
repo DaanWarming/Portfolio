@@ -1,5 +1,5 @@
 import footerStyle from "./Footer.module.css"
-import CV from "../../assets/Daan Warming.pdf"
+import CV from "../../assets/Daan Warming CV.pdf"
 
 export default function Footer({darkMode}) {
     return (

@@ -1,7 +1,7 @@
 import AboutStyles from "./About.module.css"
 import profilePic from "../../assets/BlueProfilePicture.jpg"
 import { FormattedMessage } from "react-intl"
-import CV from "../../assets/Daan Warming.pdf"
+import CV from "../../assets/Daan Warming CV.pdf"
 
 export default function AboutMe({darkMode}) {
     return (
@@ -35,10 +35,7 @@ export default function AboutMe({darkMode}) {
             <p className={`${AboutStyles["about-me__text"]} ${AboutStyles[`about-me__text__${darkMode}`]}`}>
                 <FormattedMessage 
                     id="about.about"
-                    defaultMessage="Hi there!<br/> I'm Daan, and I'm a Dutch front-end developer currently living in The Hague.
-                    <br/><br/> I am a self-motivated learner who is constantly seeking new knowledge about business and technology.
-                    <br/>I really enjoy getting a Figma design and developing it into a working website. It's very rewarding when you see something you've made working in other people's browsers.
-                    <br/><br/>In my free time I like to play video games with friends, play golf with my brother and father, and occasionally cheer for Feyenoord in the stadium."
+                    defaultMessage="Hello! \n My name is Daan and I am a Front End React developer living in The Hague. Continuously searching for ways to enhance my skills and keep growing as a person. \n \n As a developer, I find the process of converting a design from Figma into a fully functional website especially enjoyable. It's always a great feeling to see how my work is used by others. \n In my free time, I play golf with my father and brother and enjoy video games with my friends. Occasionally, I support Feyenoord at the stadium."
                 />
 
             </p>
