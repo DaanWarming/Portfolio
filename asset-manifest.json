@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9af21dce.css",
-    "main.js": "/static/js/main.90802d4e.js",
+    "main.js": "/static/js/main.c8fc250d.js",
     "static/media/TaskBuddy-dark.png": "/static/media/TaskBuddy-dark.43289da3fdbe81f0e10f.png",
     "static/media/TaskBuddy-light.png": "/static/media/TaskBuddy-light.db29bc5f53057def1608.png",
     "static/media/InvoicesApp-sc-dark.png": "/static/media/InvoicesApp-sc-dark.e10a6f237767d52a9ae9.png",
     "static/media/InvoicesApp-sc-light.png": "/static/media/InvoicesApp-sc-light.5c32f1379a8a694c5f14.png",
     "static/media/Audiophile-thumbnail.png": "/static/media/Audiophile-thumbnail.406f28264b16e1376d4d.png",
-    "static/media/Daan Warming.pdf": "/static/media/Daan Warming.9bd427db72fe54fbfad5.pdf",
+    "static/media/Daan Warming CV.pdf": "/static/media/Daan Warming CV.e0a483b15821a1d671af.pdf",
     "index.html": "/index.html",
     "main.9af21dce.css.map": "/static/css/main.9af21dce.css.map",
-    "main.90802d4e.js.map": "/static/js/main.90802d4e.js.map"
+    "main.c8fc250d.js.map": "/static/js/main.c8fc250d.js.map"
   },
   "entrypoints": [
     "static/css/main.9af21dce.css",
-    "static/js/main.90802d4e.js"
+    "static/js/main.c8fc250d.js"
   ]
 }
